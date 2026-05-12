@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  api:
+    build: .
+    env_file: .env
+    volumes:
+      - ./app:/app/app
+      - ./upload:/app/upload
+    ports:
+      - "8000:8000"

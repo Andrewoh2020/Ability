@@ -1,0 +1,1 @@
+from app.main import app  # For ASGI servers (gunicorn -k uvicorn.workers.UvicornWorker)
